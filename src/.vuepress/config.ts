@@ -2,12 +2,14 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 
+const base = process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` : '/'
+
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'SeeRay Lens',
   description: '轻量、自托管、隐私优先的产品分析平台',
-  base: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` : '/',
-  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
+  base,
+  head: [['link', { rel: 'icon', href: `${base}favicon.svg` }]],
   bundler: viteBundler(),
   theme: defaultTheme({
     logo: '/logo.svg',
