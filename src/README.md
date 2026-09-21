@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: 看清每一次真实的访问
 tagline: SeeRay Lens 是一个面向完整产品分析场景的、自托管、隐私优先的平台。它受 Matomo 启发，以更现代的 UI 把采集、分析和行动连接起来。
 actions:

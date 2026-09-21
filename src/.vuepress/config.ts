@@ -12,7 +12,7 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', href: `${base}favicon.svg` }]],
   bundler: viteBundler(),
   theme: defaultTheme({
-    logo: '/logo.svg',
+    logo: '/logo.png',
     navbar: [
       { text: '产品能力', link: '/features/' },
       { text: '快速开始', link: '/guide/' },

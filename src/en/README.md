@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: See every real visit
 tagline: SeeRay Lens is a self-hosted, privacy-first product analytics platform inspired by Matomo and shaped with a more modern UI.
 actions:
